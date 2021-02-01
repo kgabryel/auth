@@ -1,0 +1,18 @@
+{
+  "name": "frankie/auth",
+  "autoload": {
+    "psr-4": {
+      "Frankie\\Auth\\": "src"
+    }
+  },
+  "require": {
+    "frankie/request": "^1.0",
+    "doctrine/orm": "^2.6",
+    "frankie/response": "^1.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "frankie/storage": "^1.0",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "frankie/factory": "^1.0"
+  }
+}
